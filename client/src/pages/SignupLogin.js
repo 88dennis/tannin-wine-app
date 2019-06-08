@@ -51,11 +51,13 @@ class SignupLogin extends Component {
             if (response.status === 200) {
               if (response.data.isAdmin) {
                 this.setState({
-                  redirectTo: '/admin'
+                  redirectTo: '/admin',
+                  loggedIn: true,
                 });
               }
               else {
                 this.setState({
+                  loggedIn: true,
                   redirectTo: "/employeepage"
                 });
               }
