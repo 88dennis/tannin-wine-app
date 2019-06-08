@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.75381a87.chunk.css",
-    "main.js": "/static/js/main.1bb27191.chunk.js",
-    "main.js.map": "/static/js/main.1bb27191.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.68f48b5c.chunk.js": "/static/js/2.68f48b5c.chunk.js",
-    "static/js/2.68f48b5c.chunk.js.map": "/static/js/2.68f48b5c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f7ed8cdff1539e519103b37f88df13b7.js": "/precache-manifest.f7ed8cdff1539e519103b37f88df13b7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.75381a87.chunk.css.map": "/static/css/main.75381a87.chunk.css.map"
+    "main.css": "/tannin-wine-app/static/css/main.75381a87.chunk.css",
+    "main.js": "/tannin-wine-app/static/js/main.4b5d180f.chunk.js",
+    "main.js.map": "/tannin-wine-app/static/js/main.4b5d180f.chunk.js.map",
+    "runtime~main.js": "/tannin-wine-app/static/js/runtime~main.51d1447e.js",
+    "runtime~main.js.map": "/tannin-wine-app/static/js/runtime~main.51d1447e.js.map",
+    "static/js/2.68f48b5c.chunk.js": "/tannin-wine-app/static/js/2.68f48b5c.chunk.js",
+    "static/js/2.68f48b5c.chunk.js.map": "/tannin-wine-app/static/js/2.68f48b5c.chunk.js.map",
+    "index.html": "/tannin-wine-app/index.html",
+    "precache-manifest.a86c7df546aa940333642f1e3d03f697.js": "/tannin-wine-app/precache-manifest.a86c7df546aa940333642f1e3d03f697.js",
+    "service-worker.js": "/tannin-wine-app/service-worker.js",
+    "static/css/main.75381a87.chunk.css.map": "/tannin-wine-app/static/css/main.75381a87.chunk.css.map"
   }
 }
