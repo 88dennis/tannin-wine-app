@@ -2,6 +2,7 @@
   "name": "tannin-wine-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://88dennis.github.io/tannin-wine-app/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
