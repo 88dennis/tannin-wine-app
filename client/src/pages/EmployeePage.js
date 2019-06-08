@@ -24,7 +24,7 @@ class EmployeePage extends Component {
     showMe: false,
     user: "",
     loggedIn: true,
-    redirectTo: null,
+
     id: "",
     restaurant: "",
     firstName: "",
