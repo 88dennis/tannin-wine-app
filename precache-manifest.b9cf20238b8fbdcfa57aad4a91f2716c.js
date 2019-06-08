@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a837cf350cdc0e9cf65e2081198adbe",
+    "revision": "6a201bba3ef4e4de73b700d585b1d282",
     "url": "/tannin-wine-app/index.html"
   },
   {
-    "revision": "38accd6964b1c0eadcd7",
+    "revision": "f998681dbd6c8de3ae59",
     "url": "/tannin-wine-app/static/css/main.75381a87.chunk.css"
   },
   {
-    "revision": "632664a759464b8bf061",
-    "url": "/tannin-wine-app/static/js/2.68f48b5c.chunk.js"
+    "revision": "1be213c3b040fa6ee759",
+    "url": "/tannin-wine-app/static/js/2.177087c0.chunk.js"
   },
   {
-    "revision": "38accd6964b1c0eadcd7",
-    "url": "/tannin-wine-app/static/js/main.4f83e510.chunk.js"
+    "revision": "f998681dbd6c8de3ae59",
+    "url": "/tannin-wine-app/static/js/main.28eb1954.chunk.js"
   },
   {
     "revision": "e2ba333974ebfec6d297",
