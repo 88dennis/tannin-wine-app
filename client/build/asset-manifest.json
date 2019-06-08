@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tannin-wine-app/static/css/main.75381a87.chunk.css",
+    "main.js": "/tannin-wine-app/static/js/main.28eb1954.chunk.js",
+    "main.js.map": "/tannin-wine-app/static/js/main.28eb1954.chunk.js.map",
+    "runtime~main.js": "/tannin-wine-app/static/js/runtime~main.51d1447e.js",
+    "runtime~main.js.map": "/tannin-wine-app/static/js/runtime~main.51d1447e.js.map",
+    "static/js/2.177087c0.chunk.js": "/tannin-wine-app/static/js/2.177087c0.chunk.js",
+    "static/js/2.177087c0.chunk.js.map": "/tannin-wine-app/static/js/2.177087c0.chunk.js.map",
+    "index.html": "/tannin-wine-app/index.html",
+    "precache-manifest.b9cf20238b8fbdcfa57aad4a91f2716c.js": "/tannin-wine-app/precache-manifest.b9cf20238b8fbdcfa57aad4a91f2716c.js",
+    "service-worker.js": "/tannin-wine-app/service-worker.js",
+    "static/css/main.75381a87.chunk.css.map": "/tannin-wine-app/static/css/main.75381a87.chunk.css.map"
+  }
+}
