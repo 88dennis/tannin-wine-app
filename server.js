@@ -13,7 +13,10 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/wines"
+// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/wines"
+
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_059p216g:upfuk4oscn2h2j4tf062344nch@ds235197.mlab.com:35197/heroku_059p216g"
+
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 //FROM GB
