@@ -58,8 +58,6 @@ class Admin extends Component {
     // loginemail: "",
     // loginpassword: "",
     loggedIn: true,
-    redirectTo: null,
-
     greet: "",
     userId: "",
     usefirstName: "",
@@ -81,10 +79,9 @@ class Admin extends Component {
         this.setState({
           loggedIn: true,
           user: response.data.user,
-
         })
-
         this.getSavedWine()
+
       } else {
         this.setState({
           loggedIn: false,
