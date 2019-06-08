@@ -2,7 +2,7 @@
   "name": "tannin-wine-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stormy-refuge-34397.herokuapp.com",
+  "homepage": "https://88dennis.github.io/tannin-wine-app/",
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "axios": "^0.19.0",
