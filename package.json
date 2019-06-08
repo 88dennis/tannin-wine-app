@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leifaesoph/Tannin-API.git"
+    "url": "git+https://github.com/88dennis/tannin-wine-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leifaesoph/Tannin-API/issues"
+    "url": "https://github.com/88dennis/tannin-wine-app/issues"
   },
-  "homepage": "https://github.com/leifaesoph/Tannin-API#readme",
+  "homepage": "https://github.com/88dennis/tannin-wine-app#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-mongo": "^2.0.3",
