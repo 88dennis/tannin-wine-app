@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://88dennis.github.io/tannin-wine-app/",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
     "nodemailer": "^6.1.1",
     "passport": "^0.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
     "react-scroll": "^1.7.11"
   },
   "scripts": {
