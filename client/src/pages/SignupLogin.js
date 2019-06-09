@@ -39,7 +39,7 @@ class SignupLogin extends Component {
 
   handleSignupFormSubmit = async event => {
     event.preventDefault();
-    const { restaurant, firstName, lastName, email, password } = this.state;
+    const { restaurant, firstName, lastName, email, password } = this.setState;
     if (firstName && lastName && restaurant && email && password) {
       const userInfo = { firstName, lastName, restaurant, email, password }
       const loginInfor = { email, password }
@@ -92,7 +92,8 @@ class SignupLogin extends Component {
 
   handleLoginFormSubmit = event => {
     event.preventDefault();
-    const loginInfor = { email: this.state.loginemail, password: this.state.loginpassword }
+    const { loginemail, loginpassword }  = this.setState
+    const loginInfor = { loginemail, loginpassword}
     API.logIn(loginInfor).then(response => {
       console.log("USER OBJ: ", response);
       if (response.status === 200) {
@@ -133,7 +134,7 @@ class SignupLogin extends Component {
     }
     return (
       <Container>
-                <div className="tannintextwrap2">Tann</div>
+                <div className="tannintextwrap2">Tannn</div>
         <SignupLoginForm
           handleSubmitInputChange={this.handleSubmitInputChange}
           handleSignupFormSubmit={this.handleSignupFormSubmit}

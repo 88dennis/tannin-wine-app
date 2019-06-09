@@ -122,6 +122,7 @@ export default {
     return axios.post("https://stormy-refuge-34397.herokuapp.com/api/user/logout");
   },
   getUser: function () {
+
     return axios.get('https://stormy-refuge-34397.herokuapp.com/api/user/getUser');
   },
     getMaster: function(q) {
