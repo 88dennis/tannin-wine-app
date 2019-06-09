@@ -18,7 +18,8 @@ class SignupLogin extends Component {
     loggedIn: false,
     loginMessage:"",
     signupMessage:"",
-    redirectTo: null
+    redirectTo: null,
+    user:""
   }
 
   hideShow = () => {
@@ -53,12 +54,14 @@ class SignupLogin extends Component {
                 this.setState({
                   redirectTo: '/admin',
                   loggedIn: true,
+                  user: response.data.user,
                 });
               }
               else {
                 this.setState({
                   loggedIn: true,
-                  redirectTo: "/employeepage"
+                  redirectTo: "/employeepage",
+                  user: response.data.user,
                 });
               }
             }
@@ -96,14 +99,16 @@ class SignupLogin extends Component {
         // update the state
         if (response.data.isAdmin) {
           this.setState({
-            // loggedIn: true,
-            // user: response.data.user,
+            loggedIn: true,
+            user: response.data.user,
             redirectTo: '/admin'
           });
         }
         else {
           this.setState({
-            redirectTo: "/employeepage"
+            redirectTo: "/employeepage",
+            loggedIn: true,
+            user: response.data.user
           });
         }
       }
