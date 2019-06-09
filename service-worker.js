@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tannin-wine-app/precache-manifest.43858eac7efab79fbce20cd8b1ebf538.js"
+  "/tannin-wine-app/precache-manifest.c964192b668cc3e3f0ca38d6a91a1f19.js"
 );
 
 self.addEventListener('message', (event) => {
