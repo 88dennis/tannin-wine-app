@@ -5,6 +5,7 @@ const restaurantRoutes = require("./Restaurants");
 const  employeesRoutes = require("./Employees");
 const signupLoginRoutes = require("./signupLogin");
 const addEmployeeRoutes = require("./AddEmployee");
+const addwineRoutes = require("./Addwine");
 
 //naming the routes; using the books.js and google.js routes file
 
@@ -12,7 +13,7 @@ const addEmployeeRoutes = require("./AddEmployee");
 // router.use("/google", googleRoutes);
 // router.use("/books", bookRoutes);
 router.use("/user", signupLoginRoutes);
-const addwineRoutes = require("./Addwine");
+
 const getwineRoutes = require("./Getwine");
 
 router.use("/employees", employeesRoutes);

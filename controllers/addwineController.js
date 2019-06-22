@@ -4,13 +4,13 @@ const db = require("../models");
 module.exports = {
     
 //----------dms
-    update: function(req, res) {
-      console.log(req.body);
-      db.Restaurants.findOneAndUpdate({}, { $push: { Wines: req.body.Wines } }, { new: true })
-      // db.Restaurants.findOneAndUpdate({ id: req.params.id }, req.body)
-      .then(dbResto => res.json(dbResto))
-      .catch(err => res.status(422).json(err));
-      },    
+    // update: function(req, res) {
+    //   console.log(req.body);
+    //   db.Restaurants.findOneAndUpdate({}, { $push: { Wines: req.body.Wines } }, { new: true })
+    //   // db.Restaurants.findOneAndUpdate({ id: req.params.id }, req.body)
+    //   .then(dbResto => res.json(dbResto))
+    //   .catch(err => res.status(422).json(err));
+    //   },    
 
       remove: function(req, res) {
         console.log(req.body);
@@ -32,20 +32,19 @@ module.exports = {
           const {Wines, restaurantId}= req.body;
            console.log("////////////////");
            console.log(req.body);
-           console.log("////////////////");
+           console.log("TATAT");
            db.Restaurants.findOne({_id:restaurantId}).then(wine=>{
+             const wine = Wines
              console.log("((((((((((((((((((((");
-               console.log(wine.Wines);
-               console.log("))))))))))))))))))))))");
-               console.log(wine.$)
-               if(!wine.Wines.includes(Wines)){
-              
-                db.Restaurants.findOneAndUpdate({_id:restaurantId}, { $push: { Wines: Wines } }, { new: true })
+              //  console.log(Wines);
+               console.log("TATATATA");
+               console.log(wine);
+              //  console.log(wine.$)
+               if(!includes(wine)){
+                db.Restaurants.findOneAndUpdate({_id:restaurantId}, { $push: { Wines: wine } }, { new: true })
            .then(data=>{
                console.log(data);
-
                    res.json(data);
-  
            });  
        }
        else {

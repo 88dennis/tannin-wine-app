@@ -1,6 +1,3 @@
-
-
-
 const db = require("../models");
 
 //change MasterWineList to Restaurants to access models Restaurants collection
@@ -13,7 +10,6 @@ module.exports = {
         console.log(req.body);
         console.log("////////////////");
         db.Restaurants.findOne({_id: req.body.restaurantId})
-      
           // Specify that we want to populate the retrieved users with any associated notes
           .populate("Wines")
           .populate("Employees")

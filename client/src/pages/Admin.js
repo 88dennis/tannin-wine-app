@@ -73,7 +73,7 @@ class Admin extends Component {
   getUser = () => {
     API.getUser().then(response => {
       console.log("LOGGED IN USER: ", response)
-      if (!!response.data.user) {
+      if (response.data.user) {
         console.log('THERE IS A USER');
         console.log(response.data);
         this.setState({
